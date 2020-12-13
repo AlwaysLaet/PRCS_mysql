@@ -1,5 +1,7 @@
 # Purchase Records Case Study (PRCS) MySQL
 
+v0.1
+
 The simple Dockerfile is a hacky way to prepopulate a MySQL database container using Docker's default MySQL container as base. To give credit where due, the idea and much of the setup of this comes largely from [this](https://stackoverflow.com/questions/32482780/how-to-create-populated-mysql-docker-image-on-build-time) StackOverflow question and responses, but with some changes to deal with using MySQL 8+ rather than 5.X suggested in the link. 
 
 ## Explanation of Changes
